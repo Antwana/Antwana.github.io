@@ -1,0 +1,42 @@
+html {
+  font-family: 'Dosis', sans-serif;
+}
+body{
+  color: rgb(64, 64, 64);
+  background: repeating-linear-gradient(
+    45 deg,
+    rgb(224, 224, 224) 20px,
+    rgb(192, 192, 192) 20px,
+    );
+}
+
+h1 {
+  color: rgb(204, 0, 102);
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+nav {
+  text-align: right;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding 0;
+  width: 60px;
+  display:inline;
+  text-align: right;
+}
+li {
+  display: inline;
+  padding: 15px;
+  letter-spacing: 2px;
+  color: rgb(102, 0, 51);
+  font-weight: bold;
+
+}
+img {
+  width: 25%;
+  height: 25%;
+}
