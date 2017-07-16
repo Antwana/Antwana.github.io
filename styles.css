@@ -2,24 +2,31 @@ html {
   font-family: 'Dosis', sans-serif;
 }
 body{
-  color: rgb(64, 64, 64);
-  background: repeating-linear-gradient(
-    45 deg,
-    rgb(224, 224, 224) 20px,
-    rgb(192, 192, 192) 20px,
-    );
+  background-color: rgba(247, 243, 242, 0.5);
+
 }
 
 h1 {
   color: rgb(204, 0, 102);
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Lobster Two', cursive;
   letter-spacing: 3px;
   font-size: 60px;
+}
+h3{
+  color: #FF1F8F;
+  font-size: 35px;
 }
 nav {
   text-align: right;
   font-size: 20px;
 }
+
+p {
+  color: rgb(37,7,54);
+  font-family: 'Philosopher', sans-serif;
+  font-size: 25px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -34,9 +41,36 @@ li {
   letter-spacing: 2px;
   color: rgb(102, 0, 51);
   font-weight: bold;
+}
+
+#pic {
+  width: 300px;
+  height: 436px;
+  border-radius: 100%;
+  border: 5px solid #FF1F8F;
+}
+
+#name {
+background-color: rgb(37,7,54);
+}
+
+.contact {
+  width: 5px;
+  height: 5px;
 
 }
-img {
-  width: 25%;
-  height: 25%;
+
+.about {
+  height: 350px;
+  width: 600px;
+  display: inline-block;
+
+}
+
+.projects {
+  width: 435px;
+  height:350px;
+  border: 5px solid rgb(37,7,54);
+  display: inline-block;
+  background-color: rgb(37,7,54);
 }
