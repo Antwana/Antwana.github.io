@@ -1,8 +1,14 @@
 html {
   font-family: 'Dosis', sans-serif;
 }
-body{
-  background-color: rgba(247, 243, 242, 0.5);
+body {
+  margin-left: 150px;
+}
+
+.bimg {
+  background-image: url("images/pexels-photo-169573.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 
 }
 
@@ -14,7 +20,7 @@ h1 {
 }
 h3{
   color: #FF1F8F;
-  font-size: 35px;
+  font-size: 15px;
 }
 nav {
   text-align: right;
@@ -22,9 +28,9 @@ nav {
 }
 
 p {
-  color: rgb(37,7,54);
-  font-family: 'Philosopher', sans-serif;
-  font-size: 25px;
+  color: rgb(204, 0, 102);
+  font-family: 'Arima Madurai', cursive;
+  font-size: 20px;
 }
 
 ul {
@@ -42,35 +48,57 @@ li {
   color: rgb(102, 0, 51);
   font-weight: bold;
 }
-
-#pic {
-  width: 300px;
-  height: 436px;
-  border-radius: 100%;
-  border: 5px solid #FF1F8F;
+footer {
+  align-items: center;
+  padding: 20px
 }
 
-#name {
+/*#name {
 background-color: rgb(37,7,54);
-}
+}*/
 
 .contact {
   width: 5px;
   height: 5px;
 
 }
+.contact:hover{
 
-.about {
+}
+
+/*.about {
   height: 350px;
   width: 600px;
   display: inline-block;
 
-}
+}*/
 
-.projects {
-  width: 435px;
-  height:350px;
+.square1 {
+  background-image: url();
+  background-color: rgb(37,7,54);
+}
+.square2 {
+  background-image: url("images/Screen Shot 2017-07-26 at 1.29.58 PM.png");
+}
+.square3 {
+  background-image: url("images/Screen Shot 2017-06-29 at 12.40.50 PM.png");
+}
+.square4 {
+
+}
+.square1, .square2, .square3, .square4{
+  background-size: 545px 380px;
+  width: 545px;
+  height:380px;
   border: 5px solid rgb(37,7,54);
   display: inline-block;
-  background-color: rgb(37,7,54);
+  -webkit-transition: all 1s ease;
+  filter: grayscale();
+}
+
+.square1:hover, .square2:hover, .square3:hover, .square4:hover {
+  filter: none;
+}
+.tech {
+
 }
