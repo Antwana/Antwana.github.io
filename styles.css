@@ -1,22 +1,25 @@
 html {
   font-family: 'Dosis', sans-serif;
+  background-color: #333333
 }
 body {
+  /*background-color: #333333*/
   margin-left: 150px;
 }
 
-.bimg {
+/*.bimg {
   background-image: url("images/pexels-photo-169573.jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
 
-}
+}*/
 
 h1 {
   color: rgb(204, 0, 102);
   font-family: 'Lobster Two', cursive;
   letter-spacing: 3px;
   font-size: 60px;
+  margin-bottom: 2px;
 }
 h3{
   color: #FF1F8F;
@@ -45,12 +48,20 @@ li {
   display: inline;
   padding: 15px;
   letter-spacing: 2px;
-  color: rgb(102, 0, 51);
+  color: rgb(204, 0, 102);
   font-weight: bold;
 }
 footer {
   align-items: center;
   padding: 20px
+}
+
+a:link {
+  color: rgb(204, 0, 102);
+}
+
+a:visited {
+  color: rgb(204, 0, 102);
 }
 
 /*#name {
@@ -66,27 +77,69 @@ background-color: rgb(37,7,54);
 
 }
 
-/*.about {
-  height: 350px;
+.about {
+  height: 450px;
   width: 600px;
   display: inline-block;
+  /*border: 3px solid rgb(204, 0, 102);
+  border-radius: 30%;*/
+  margin-left: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
 
-}*/
+.me {
+  color: white;
+}
+
+.all {
+  display: grid;
+  grid-template-columns: 545px 545px;
+  grid-template-rows: 380px 380px;
+  grid-gap: 10px;
+}
 
 .square1 {
-  background-image: url();
-  background-color: rgb(37,7,54);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /*background-image: url();
+  background-color: rgb(37,7,54);*/
 }
 .square2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
   background-image: url("images/Screen Shot 2017-07-26 at 1.29.58 PM.png");
 }
 .square3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   background-image: url("images/Screen Shot 2017-06-29 at 12.40.50 PM.png");
 }
 .square4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 
 }
-.square1, .square2, .square3, .square4{
+.square1, .square2, .square3, .square4 {
+  background-size: 545px 380px;
+  /*width: 545px;
+  height:380px;*/
+  border: 5px solid rgb(204, 0, 102);
+  /*display: grid;
+  grid-template-columns: 545px;*/
+  -webkit-transition: all 1s ease;
+  filter: grayscale();
+}
+
+/*.square2, .square4 {
   background-size: 545px 380px;
   width: 545px;
   height:380px;
@@ -94,11 +147,20 @@ background-color: rgb(37,7,54);
   display: inline-block;
   -webkit-transition: all 1s ease;
   filter: grayscale();
-}
+}*/
 
 .square1:hover, .square2:hover, .square3:hover, .square4:hover {
   filter: none;
 }
 .tech {
+  color: white;
+  padding: 10px;
+
+}
+
+#title {
+  font-size: 30px;
+  margin-top: 1px;
+  color: white;
 
 }
