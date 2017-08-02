@@ -126,9 +126,23 @@ background-color: rgb(37,7,54);
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-
 }
-.square1, .square2, .square3, .square4 {
+.square5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.square6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-image: url("images/Screen Shot 2017-08-02 at 9.08.57 AM.png");
+}
+
+
+.square1, .square2, .square3, .square4, .square5, .square6 {
   background-size: 545px 380px;
   /*width: 545px;
   height:380px;*/
@@ -149,7 +163,7 @@ background-color: rgb(37,7,54);
   filter: grayscale();
 }*/
 
-.square1:hover, .square2:hover, .square3:hover, .square4:hover {
+.square1:hover, .square2:hover, .square3:hover, .square4:hover, .square5:hover, .square6:hover {
   filter: none;
 }
 .tech {
